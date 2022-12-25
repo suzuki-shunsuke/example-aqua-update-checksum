@@ -30,7 +30,7 @@ jobs:
 
       - uses: aquaproj/aqua-installer@v1.1.2
         with:
-          aqua_version: ${{ inputs.aqua_version }}
+          aqua_version: v1.25.1
       - uses: aquaproj/update-checksum-action@v0.1.0
         env:
           GITHUB_TOKEN: ${{steps.generate_token.outputs.token}}
