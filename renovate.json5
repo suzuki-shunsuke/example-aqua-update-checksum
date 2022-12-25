@@ -4,4 +4,13 @@
     "helpers:pinGitHubActionDigests",
     "github>aquaproj/aqua-renovate-config#1.4.0",
   ],
+  prHourlyLimit: 0,
+  prConcurrentLimit: 0,
+  branchConcurrentLimit: 0,
+  automerge: true,
+  platformAutomerge: true,
+  major: {
+    automerge: false,
+    platformAutomerge: false,
+  },
 }
