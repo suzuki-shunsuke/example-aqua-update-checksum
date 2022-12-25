@@ -3,10 +3,6 @@ name: Update aqua-checksums.json
 on:
   pull_request:
     branches: [main]
-    paths:
-      - aqua.yaml
-      - aqua-checksums.json
-      - .github/workflows/aqua-update-checksum.yaml
 
 permissions:
   contents: write # required to push a commit to update aqua-checksums.json
