@@ -2,6 +2,6 @@
   extends: [
     "config:base",
     "helpers:pinGitHubActionDigests",
-    "github>aquaproj/aqua-renovate-config#1.4.0",
+    "github>aquaproj/aqua-renovate-config#1.5.0",
   ],
 }
