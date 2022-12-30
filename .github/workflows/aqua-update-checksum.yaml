@@ -30,7 +30,7 @@ jobs:
 
       - uses: aquaproj/aqua-installer@v1.1.2
         with:
-          aqua_version: v1.25.0
+          aqua_version: v1.28.0
       - uses: aquaproj/update-checksum-action@feat/support-prune
         with:
           prune: true
