@@ -26,7 +26,7 @@ jobs:
 
       - uses: aquaproj/aqua-installer@61e2563dfe7674cbf74fe6ec212e444198a3bb00 # v2.0.2
         with:
-          aqua_version: v1.28.0
+          aqua_version: v2.25.1
       - uses: aquaproj/update-checksum-action@feat/support-prune
         with:
           prune: true
